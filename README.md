@@ -1,4 +1,15 @@
 # GoogleLoginApiWithAngular
+You need to setup your project name, OAuth Screen and also add new credentials
+this project is setup for internal domain only so is very important to create your own credentials and replace them , read below for more info
+https://console.cloud.google.com/apis/credentials
+
+Follow Google Guide here
+https://developers.google.com/identity/sign-in/web/sign-in
+
+when you are ready to test you app you will need to change your credentials in this file otherwise you are not going to be able to test the code
+login-button.component.ts
+
+## Standard Angular Info Below
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
